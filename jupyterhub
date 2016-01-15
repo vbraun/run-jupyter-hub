@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+./tools/py3/activate jupyterhub "$@"
