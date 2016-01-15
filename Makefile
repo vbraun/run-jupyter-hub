@@ -32,7 +32,7 @@ tools/%/activate: $(PYTHON3) tools/%.yaml
 clean-kernels:
 	rm -rf tools/py3/share/jupyter/kernels
 
-clean: clean-kernel
+clean: clean-kernels
 	rm -rf tools/py2 tools/py3 tools/bootstrap
 
 .PHONY: jupyter jupyterhub default clean-kernels clean link-sage
