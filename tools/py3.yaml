@@ -1,10 +1,9 @@
 hashstack:
   parameters:
-    pyver: '3.4'
+    pyver: '3.5'
   packages:
     python:
       use_host: false
-    pip:
 
 python-pip:
   jupyterhub:
