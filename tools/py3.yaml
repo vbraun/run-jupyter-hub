@@ -1,0 +1,11 @@
+hashstack:
+  parameters:
+    pyver: '3.4'
+  packages:
+    python:
+      use_host: false
+    pip:
+
+python-pip:
+  jupyterhub:
+  notebook:

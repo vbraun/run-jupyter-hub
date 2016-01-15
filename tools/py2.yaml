@@ -1,0 +1,9 @@
+hashstack:
+  parameters:
+    pyver: '2.7'
+  packages:
+    node:
+    pip:
+
+node-npm:
+  configurable-http-proxy:

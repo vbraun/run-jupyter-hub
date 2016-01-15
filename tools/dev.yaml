@@ -1,0 +1,11 @@
+hashstack:
+  parameters:
+    pyver: '2.7'
+  packages:
+    pip:
+    node:
+    
+node-npm:
+  casperjs:
+  phantomjs: '1.9.18'
+  
