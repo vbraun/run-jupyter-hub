@@ -38,3 +38,24 @@ Just the single-user Jupyter notebook:
     make jupyter
 
 
+Running on a Server
+===================
+
+SSL/TLS
+-------
+
+First of all, you absolutely want to transfer data encrypted between
+you and your server.
+
+
+Configuration
+-------------
+
+For anything but quickstart you should have a configuration
+file. Generate one with
+
+    jupyterhub --generate-config
+
+and then always launch `./jupyterhub -f jupyterhub_config.py` to pick
+up your settings.
+

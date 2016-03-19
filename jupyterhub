@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
+# Launch script for Jupyter Hub
+#
+# This sets up paths to use our self-compiled python3 and nodejs
 
 ./tools/py2/activate ./tools/py3/activate jupyterhub "$@"

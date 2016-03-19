@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
+# Launch script for the single-user Jupyter notebook
+#
+# This sets up paths to use our self-compiled python3 runtime.
+
 ./tools/py3/activate jupyter "$@"
