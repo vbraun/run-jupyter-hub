@@ -3,6 +3,8 @@
 /jupyterhub_cookie_secret
 /jupyterhub_config.py
 
+/letsencrypt
+
 *~
 
 .ipynb_checkpoints

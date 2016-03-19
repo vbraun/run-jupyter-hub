@@ -5,5 +5,8 @@ hashstack:
     node:
     pip:
 
+python-pip:
+  letsencrypt:
+
 node-npm:
   configurable-http-proxy:
