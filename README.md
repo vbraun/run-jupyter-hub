@@ -14,10 +14,11 @@ Check out the repository and run
 
     make
 
-This builds and launches the multi-user jupyterhub (without SSL!) at
-http://localhost:8000. You'll have to log in with your system username
-and password because it is multi-user. But you can only log in as your
-own user since you did not (and should not) run this as root.
+This builds and launches the multi-user jupyterhub (without SSL!, see
+below) at http://localhost:8000. You'll have to log in with your
+system username and password because it is multi-user. But you can
+only log in as your own user since you did not (and should not) run
+this as root.
 
 Sage Kernel
 -----------
@@ -52,10 +53,10 @@ Configuration
 -------------
 
 For anything but quickstart you should have a configuration
-file. Generate one with
+file. Generate a default `jupyterhub_config.py` with the command
 
-    jupyterhub --generate-config
+    ./jupyterhub --generate-config
 
-and then always launch `./jupyterhub -f jupyterhub_config.py` to pick
-up your settings.
+This configuration file is automatically used by the `./jupyterhub`
+launcher script.
 

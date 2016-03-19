@@ -4,4 +4,8 @@
 #
 # This sets up paths to use our self-compiled python3 and nodejs
 
-./tools/py2/activate ./tools/py3/activate jupyterhub "$@"
+if [ -f jupyterhub_config.py ]; then
+    ARGS=-f=./jupyterhub_config.py
+fi
+
+./tools/py2/activate ./tools/py3/activate jupyterhub $ARGS "$@"
