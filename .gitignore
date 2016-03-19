@@ -1,7 +1,7 @@
 
 /jupyterhub.sqlite
 /jupyterhub_cookie_secret
-
+/jupyterhub_config.py
 
 *~
 

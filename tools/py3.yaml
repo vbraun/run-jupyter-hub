@@ -4,6 +4,7 @@ hashstack:
   packages:
     python:
       use_host: false
+    pip:
 
 python-pip:
   jupyterhub:

@@ -14,10 +14,10 @@ Check out the repository and run
 
     make
 
-This builds and launches the multi-user jupyterhub at
+This builds and launches the multi-user jupyterhub (without SSL!) at
 http://localhost:8000. You'll have to log in with your system username
-and password because it is multi-user.
-
+and password because it is multi-user. But you can only log in as your
+own user since you did not (and should not) run this as root.
 
 Sage Kernel
 -----------
@@ -36,3 +36,5 @@ Jupyter without Hub
 Just the single-user Jupyter notebook:
 
     make jupyter
+
+

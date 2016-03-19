@@ -6,10 +6,13 @@ TOOL3:=tools/py3/activate
 default: jupyterhub
 
 jupyter: $(TOOL3)
-	$(TOOL3) jupyter notebook --log-level=DEBUG 
+	./jupyter notebook --log-level=DEBUG 
 
 jupyterhub: $(TOOL2) $(TOOL3)
-	source $(TOOL2) && source $(TOOL3) && jupyterhub --log-level=DEBUG
+	./jupyterhub --no-ssl --log-level=DEBUG
+
+jupyterhub-ssl: $(TOOL2) $(TOOL3)
+	./jupyterhub --log-level=DEBUG
 
 
 

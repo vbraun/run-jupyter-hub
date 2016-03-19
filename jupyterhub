@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 
-source ./tools/py2/activate
-source ./tools/py3/activate
 
-jupyterhub "$@"
+./tools/py2/activate ./tools/py3/activate jupyterhub "$@"
